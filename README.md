@@ -1,4 +1,4 @@
-# WordCount
+# Word Counter
 * [Description](#description)
 * [Dependencies](#dependencies)
 * [Run](#run)
