@@ -5,6 +5,7 @@ defmodule Test.ChallengeTest do
   describe "word_count/1" do
 
     test "test con archivo pequeño" do
+
       file = "samples/file.txt"
       assert RepeatedWords.word_count(file) == [
         {"eran", 2},
