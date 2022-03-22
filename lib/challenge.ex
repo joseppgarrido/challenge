@@ -2,7 +2,7 @@ defmodule RepeatedWords do
 
   def word_count(readFile) do
      readFile
-     |> File.stream!
+     |> File.stream!([:compressed])
      |> sanitize
      |> count
      |> order
